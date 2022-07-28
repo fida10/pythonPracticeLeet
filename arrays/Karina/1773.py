@@ -1,5 +1,9 @@
 #1773. Count Items Matching a Rule
 #New pythin file
+#git add 'File name i.e ("arrays/Karina/1773.py")'
+#git commit
+#git push
+
 class Solution:
 def countMatches(self, items: List[List[str]], ruleKey: str, ruleValue: str) -> int:
     counter = 0
@@ -12,3 +16,8 @@ def countMatches(self, items: List[List[str]], ruleKey: str, ruleValue: str) -> 
         elif ruleKey == "name" and items[i][2] == ruleValue:
             counter = counter + 1
     return counter
+
+#to pull for code type --> git pull
+#Go to pycharm Main--> Merge with ...
+# Write on CMD --> git push
+# Go to git and pull then merge code
