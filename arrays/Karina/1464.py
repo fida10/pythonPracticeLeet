@@ -5,3 +5,5 @@ class Solution:
         nums.remove(max1st)
         max2nd = (max(nums))
         return (max1st - 1) * (max2nd - 1)
+
+    ## Sacp

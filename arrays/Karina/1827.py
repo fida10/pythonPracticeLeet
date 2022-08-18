@@ -10,7 +10,7 @@ class Solution:
 
         return (counter)
 
-#Troubles shooting
+#Troubleshooting
 #nums = [1,5,2,4,1]
 #aLen = len(nums)
 #counter = 0;
