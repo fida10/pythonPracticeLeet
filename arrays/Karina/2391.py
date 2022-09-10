@@ -1,4 +1,5 @@
-class Solution:
+#2391. Minimum Amount of Time to Collect Garbage
+# class Solution:
     def garbageCollection(self, garbage: List[str], travel: List[int]) -> int:
         # id how many m, g, or P in the index, add 1 for each num of value,
         # depending ono the index add travel time as well
